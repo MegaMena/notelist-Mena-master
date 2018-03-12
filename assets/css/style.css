@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: 'Fredoka One', cursive;
-  color: Coral;
+  color: rgb(255, 51, 102);
 }
 
 .flex {
@@ -31,7 +31,14 @@ ul {
   position: fixed;
   bottom: 10px;
   right: 10px;
-  background: Coral;
+  background: rgb(255, 51, 102);
+  font-family: 'Fredoka One', cursive;
+  color: white;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  font-size: 250%;
+  text-align: center;
 }
 
 .modal-bg {
@@ -53,4 +60,16 @@ ul {
   left: 50%;
   transform: translate(-50%, -50%);
   padding: 10px;
+}
+
+header {
+  background-image: url(../images/lined-paper.png);
+  background-size: cover;
+  text-align: center;
+
+}
+
+button {
+  font-family: 'Fredoka One', cursive;
+  color: rgb(255, 51, 102);
 }
